@@ -1,0 +1,48 @@
+﻿@model Eshop.Models.DbModels.Users
+@{
+    Layout = "_AuthLayout";
+    ViewData["Title"] = "Login";
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<div class="p-5 mx-5">
+
+    <div class="text-center">
+         <h1 class="display-4">Welcome, Login</h1>
+    </div>
+   
+    <div class="tab-content p-5 w-75 m-auto">
+        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+            <form class="px-5" asp-controller="Authentication" asp-action="Login" method="post">
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                    <input type="email" id="Email" asp-for="Email" class="form-control" />
+                </div>
+
+                <!-- Password input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                    <input type="password" id="Password" asp-for="Password" class="form-control" />
+                </div>
+
+              
+                <div class="text-center">
+                <!-- Submit button -->
+                <button type="submit"  class="btn btn-primary btn-block btn-lg mb-4">Sign in</button>
+                <span asp-validation-summary="All" class="text-danger"></span>
+                </div>
+                <!-- Register buttons -->
+                <div class="text-center">
+                    <p>Not a member? @Html.ActionLink("Register", "Registeration", "Authentication", null, new { @class = "mb-3" })</p></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+﻿@model Eshop.Models.DbModels.Users
+
+@{
+
+    Layout = "_AuthLayout";
+    ViewData["Title"] = "Registeration";
+}
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage
+    </div>
+}
+
+<div class="p-5 mx-5">
+    <div class="text-center">
+        <h1 class="display-4">Welcome, Registration</h1>
+    </div>
+    <div class="p-5 w-75 m-auto">
+        <div class="tab-pane" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+            <form class="px-5" method="post" asp-action="RegisterUser" asp-controller="Authentication">
+            <!-- Name input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="FirstName" asp-for="FirstName" class="form-control" />
+                    <label class="form-label" >First Name</label>
+                </div>
+
+                <!-- Username input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="LastName" asp-for="LastName" class="form-control" />
+                    <label class="form-label" asp-for="LastName">Last Name</label>
+                </div>
+
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="Email" asp-for="Email" class="form-control" />
+                    <label class="form-label" asp-for="Email" >Email</label>
+                </div>
+
+                <!-- Password input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="password" id="Password" asp-for="Password" class="form-control" />
+                    <label class="form-label" asp-for="Password">Password</label>
+
+                </div>
+
+                <!-- PhoneNumber input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="number" id="PhoneNumber" asp-for="PhoneNumber" class="form-control" />
+                    <label class="form-label" asp-for="PhoneNumber">Contact</label>
+
+                </div>
+                <!-- Dob input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="date" id="Dob" asp-for="Dob" class="form-control" />
+                    <label class="form-label" asp-for="Dob">Date Of Birth</label>
+
+                </div>
+                <!-- Address input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="text" id="Dob" asp-for="Address" class="form-control" />
+                    <label class="form-label" asp-for="Address">Address</label>
+
+                </div>
+            
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked
+                           aria-describedby="registerCheckHelpText" />
+                    <label class="form-check-label" for="registerCheck">
+                        I have read and agree to the terms
+                    </label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit"  class="btn btn-primary btn-block mb-3"> Sign Up </button>
+                <!-- Login buttons -->
+                <div class="text-center">
+                    <p>Already a member? @Html.ActionLink("Login", "Index", "Authentication", null, new { @class = "mb-3" })</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

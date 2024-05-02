@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\source\\repos\\Eshop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|c:\\users\\dell\\source\\repos\\eshop\\eshop\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|solutionrelative:eshop\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|c:\\users\\dell\\source\\repos\\eshop\\eshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|solutionrelative:eshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|c:\\users\\dell\\source\\repos\\eshop\\eshop\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|solutionrelative:eshop\\views\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|c:\\users\\dell\\source\\repos\\eshop\\eshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|solutionrelative:eshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|c:\\users\\dell\\source\\repos\\eshop\\eshop\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{154F5F99-8DDD-419C-BAC7-E8242F8EA93C}|Eshop\\Eshop.csproj|solutionrelative:eshop\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Eshop\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Eshop\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:39:55.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Program.cs",
+              "RelativeDocumentMoniker": "Eshop\\Program.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Program.cs",
+              "RelativeToolTip": "Eshop\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T23:38:26.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Views\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "Eshop\\Views\\Authentication\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Views\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "Eshop\\Views\\Authentication\\Login.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T23:07:40.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Eshop\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Eshop\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T23:05:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Eshop\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dell\\source\\repos\\Eshop\\Eshop\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Eshop\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T22:03:55.971Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
